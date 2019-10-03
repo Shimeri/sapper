@@ -11,6 +11,8 @@ Sapper apps run anywhere that supports Node 8 or higher.
 
 We can very easily deploy our apps to [Now][]:
 
+Config your `package.json` scripts from `"build": "sapper build"` to `"build": "sapper export"`
+
 ```bash
 npm install -g now
 now
